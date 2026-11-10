@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="task2.css">
+    <script src="task2.js" defer></script>
+    
+</head>
+<body>
+    <marquee behavior="scroll" direction="right"><h2>Student Registration Form</h2></marquee>
+    <form id="registrationForm" action="./submit">
+        <table border="1" align="center">
+            <tr><td>
+                <label for="name">Student name:</label>
+                <input type="text" id="text" placeholder="Enter your name">
+            </td></tr>
+            <br>
+            <tr>
+                <td>
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" placeholder="Enter your email">
+                </td>
+            </tr>
+            <br>
+            <tr>
+                <td>
+                    <label for="mobile number">Mobile number:</label>
+                    <input type="number" id="number" placeholder="Enter your number">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="date of birth">DOB:</label>
+                    <input type="date of birth" id="date of birth" placeholder="Enter your DOB">
+                </td>
+            </tr>
+            <br>
+            <tr>
+                <td>
+                    <label for="gender">Gender:</label><br>
+                    <input type="radio">m 
+                    <input type="radio">f
+                    <input type="radio">others 
+                </td>
+            </tr>
+            <br>
+            <tr>
+                <td>
+                    <label for="address">Address:</label>
+                    <input type="text" id="text" placeholder="Enter your proper address">
+                </td>
+            </tr>
+            <br>
+            <tr>
+                <td>
+                    <label for="College name">College name:</label>
+                    <input type="text" id="text" placeholder="Enter your college name">
+                </td>
+            </tr>
+            <br>
+            <tr>
+                <td>
+                    <label for="branch">Branch:</label><br>
+                    <input type="radio">CSE
+                    <input type="radio">ECE
+                    <input type="radio">AI&ml
+                    <input type="radio">EEE
+                    <input type="radio">MECH
+                </td>
+            </tr>
+            <br>
+            <tr>
+                <td>
+                    <label for="roll number">Roll number:</label>
+                    <input type="text" id="text" placeholder="Enter your roll number">
+                </td>
+            </tr>
+            <br>
+            <tr>
+                <td>
+                    <label for="year of study">Year of study:</label><br>
+                    <input type="radio">1st Year
+                     <input type="radio">2nd Year
+                      <input type="radio">3rd Year
+                       <input type="radio">4th Year
+
+                </td>
+            </tr>
+            <br>
+            <tr>
+                <td>
+                    <label for="technical skills">Technical skills:</label><br>
+                    <input type="checkbox">HTML
+                    <input type="checkbox">CSS
+                    <input type="checkbox">JS
+                    <input type="checkbox">REACT
+                    <input type="checkbox">Angular
+                    <input type="checkbox">Python
+                    
+                </td>
+            </tr>
+            <br>
+            <tr>
+                <td>
+                    <label for="preffered course">Preffered course:</label><br>
+                    <input type="radio">COMPUTER
+                    <input type="radio">AI
+                    <input type="radio">DRAWING
+                    <input type="radio">ELECTRICAL
+
+                </td>
+            </tr>
+            <br>
+        </table>
+        <button type="submit">Submit</button>
+        <button type="reset">Reset</button>
+        <button type="button" id="cancelButton">Cancel</button>
+    </form>
+</body>
+</html>
